@@ -58,7 +58,7 @@ Thank you.`;
           <div>  
             {/* LOGO */}  
             <img  
-              src="devillogo.jpg"  
+              src="/devillogo.jpg"  
               alt="Devil Cleanerz & Enterprises Logo"  
               className="w-56 mb-6 filter drop-shadow-[0_0_15px_rgba(239,68,68,0.4)]"  
             />  
@@ -93,7 +93,7 @@ Thank you.`;
           <div className="relative">  
             <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-purple-600 rounded-[40px] blur-xl opacity-20 animate-pulse"></div>
             <img  
-              src="hero,jpg.jpg"  
+              src="/hero.jpg"  
               alt="Devil Cleanerz Deep Cleaning Service"  
               className="relative rounded-[40px] shadow-2xl border border-white/5 object-cover w-full h-[450px]"  
             />  
@@ -128,9 +128,9 @@ Thank you.`;
 
           <div className="grid md:grid-cols-3 gap-8 text-left">  
             {[  
-              { title: "1 BHK Deep Clean", price: "₹3,499", image: "1bhk.jpg", tag: "Essentials" },  
-              { title: "2 BHK Deep Clean", price: "₹4,499", image: "4499.jpg", tag: "Premium" },  
-              { title: "3 BHK Deep Clean", price: "₹5,799", image: "5799.jpg", tag: "Elite" },  
+              { title: "1 BHK Deep Clean", price: "₹3,499", image: "/1bhk.jpg", tag: "Essentials" },  
+              { title: "2 BHK Deep Clean", price: "₹4,499", image: "/4499.jpg", tag: "Premium" },  
+              { title: "3 BHK Deep Clean", price: "₹5,799", image: "/5799.jpg", tag: "Elite" },  
             ].map((service, index) => (  
               <div  
                 key={index}  
@@ -141,7 +141,7 @@ Thank you.`;
                 )}
                 <div className="overflow-hidden h-64 w-full relative">
                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 to-transparent z-10"></div>
-                  <img  
+                  <img loading="lazy"  
                     src={service.image}  
                     alt={service.title}  
                     className="h-full w-full object-cover group-hover:scale-110 transition duration-700"  
@@ -318,13 +318,13 @@ Thank you.`;
           </p>  
 
           <div className="grid md:grid-cols-2 gap-8">  
-            <img  
-              src="1bhk.jpg"  
+            <img loading="lazy"  
+              src="/1bhk.jpg"  
               alt="Devil Cleanerz 1 BHK Deep Cleaning Breakdown"  
               className="rounded-[40px] shadow-2xl w-full border border-white/5 object-cover h-[400px]"  
             />  
-            <img  
-              src="4499.jpg"  
+            <img loading="lazy"  
+              src="/4499.jpg"  
               alt="Devil Cleanerz 2 BHK Deep Cleaning Breakdown"  
               className="rounded-[40px] shadow-2xl w-full border border-white/5 object-cover h-[400px]"  
             />  
@@ -434,8 +434,8 @@ Thank you.`;
       {/* FOOTER */}  
       <footer className="bg-black text-gray-500 py-12 px-6 text-center border-t border-white/10 relative z-10">  
         <div className="flex flex-col items-center justify-center max-w-6xl mx-auto">  
-          <img  
-            src="devillogo.jpg"  
+          <img loading="lazy"  
+            src="/devillogo.jpg"  
             alt="Devil Cleanerz & Enterprises Logo"  
             className="w-32 mb-4 filter brightness-90"  
           />  
