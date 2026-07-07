@@ -93,7 +93,7 @@ Thank you.`;
           <div className="relative">  
             <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-purple-600 rounded-[40px] blur-xl opacity-20 animate-pulse"></div>
             <img  
-              src="/hero.jpg"  
+              src="/hero.jpg.jpg"  
               alt="Devil Cleanerz Deep Cleaning Service"  
               className="relative rounded-[40px] shadow-2xl border border-white/5 object-cover w-full h-[450px]"  
             />  
