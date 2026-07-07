@@ -470,3 +470,4 @@ Thank you.`;
     </div>
   );
 }
+// Fix image paths for Cloudflare Pages deployment
